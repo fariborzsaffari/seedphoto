@@ -27,7 +27,7 @@ WORKDIR /app/src
 # Install required dependencies
 
 # Expose the port on which the Flask app runs
-EXPOSE 8000
+EXPOSE 5000
 
 # Start the Flask app when the container starts
 CMD ["python", "app.py"]
