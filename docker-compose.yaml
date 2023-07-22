@@ -3,7 +3,8 @@ services:
   bsc_exporter:
     build: .
     ports:
-      - "8000:8000"
+      - "5001:5001"
+      - "8015:8015"
     environment:
       - BSC_SCAN_API_KEY=your_api_key
       - WALLET_ADDRESS=your_wallet_address
